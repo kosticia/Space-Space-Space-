@@ -1,0 +1,12 @@
+- type: entity
+  id: SlimepeopleChangeAction
+  name: Try new stile!
+  description: Change your hair or facial hair.
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Objects/Tools/scissors.rsi
+      state: icon
+    event: !type:SlimepeopleChangeActionEvent {}
+    checkCanInteract: true
+    checkConsciousness: true

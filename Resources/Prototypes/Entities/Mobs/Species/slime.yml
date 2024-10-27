@@ -118,6 +118,8 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
+  - type: SlimepeopleChangeAction
+    actionPrototype: SlimepeopleChangeAction
 
 - type: entity
   parent: MobHumanDummy
